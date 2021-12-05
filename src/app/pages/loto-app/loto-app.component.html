@@ -1,0 +1,18 @@
+<div class="loto-app">
+    <h1>
+        welcome to loto toto
+    </h1>
+    <add-num></add-num>
+    <table>
+        <thead>
+            <tr class="table-header"><th></th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let numRow of lotoMat$ | async; let i = index">
+                <th class="th-header">{{i}}</th><th *ngFor="let num of numRow">
+                    {{num.count}}
+                </th>
+            </tr>
+        </tbody>
+    </table>
+</div>

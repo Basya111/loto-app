@@ -1,0 +1,25 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: inherit;
+}
+
+th,
+td {
+    padding: 6px 20px;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+.table-header {
+    th {
+        background-color: #393E46;
+        color: #EEEEEE;
+    }
+}
+
+.th-header{
+    background-color: #393E46;
+    color: #EEEEEE;
+}
